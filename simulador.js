@@ -1,11 +1,4 @@
-//Simulador cotizador seguro
 
-/*
-    1. Seleccionar tipo de automovil (Chico, mediano, camioneta)
-    2. Elegir tipo de cobertura (basica o todo riesgo)
-    3. ingresar el valor del auto
-
-*/
 
 const tipoVehiculo = ['Chico', 'Mediano', 'Camioneta']
 const tipoSeguro = ['Básica', 'Todo riesgo']
