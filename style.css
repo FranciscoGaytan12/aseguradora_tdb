@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-color: rgba(104, 171, 196, 0.607);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+h1,
+h2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 3%;
+}
+
+#simulador {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0% 30%;
+}
+
+#valorAuto {
+    width: 100%;
+}
+
+#cotizacionResultante {
+    
+    margin-top: 40px;
+    text-decoration: solid;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    
+}
+
+footer {
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+
+

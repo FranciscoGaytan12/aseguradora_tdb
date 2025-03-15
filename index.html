@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>COTIZAONLINE.COM</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./assets/logo-tienda.png" alt="logo-tienda" width="30" height="24"
+                        class="d-inline-block align-text-top">
+                    COTIZAONLINE.COM
+                </a>
+            </div>
+            <a class="container-fluid" href="./carrito.html" id="anchor_carrito"
+                style="display: flex; justify-content:flex-end">Carrito</a>
+        </nav>
+    </header>
+    <main>
+        <h1>
+            BIENVENIDOS A SEGURO ONLINE
+        </h1>
+        <div class="d-flex justify-content-center">
+            <div id="row" class="row mb-3">
+                <!-- Dentro de este div colocamos los pack de seguros -->
+
+
+            </div>
+        </div>
+        <h2>
+            Si no encontras el seguro, simulá acá abajo
+        </h2>
+        <div id="simulador">
+            <div>
+                <h3>Selección de vehiculo</h3>
+                <select class="form-select" aria-label="Default select example" name="seleccionVehiculo"
+                    id="seleccionVehiculo">
+                    <option selected>SELECCIONA UNA DE LAS OPCIONES</option>
+                    <option value="chico">CHICO</option>
+                    <option value="mediano">MEDIANO</option>
+                    <option value="grande">GRANDE</option>
+                </select>
+            </div>
+            <div>
+                <h3>Seleccion cobertura</h3>
+
+                <select class="form-select" aria-label="Default select example" name="tipoCobertura" id="tipoCobertura">
+                    <option selected>SELECCIONA UNA DE LAS OPCIONES</option>
+                    <option value="basico">BASICO</option>
+                    <option value="todo riesgo">TODO RIESGO</option>
+                </select>
+            </div>
+            <div>
+                <h3>Valor de vehiculo</h3>
+                <input id="valorAuto" type="number">
+            </div>
+            <br>
+            <div>
+                <input type="submit" id="resultado" value="COTIZAR">
+            </div>
+            <div id="cotizacionResultante">
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="https://wa.me/5493413157386"><img src="./assets/whatsapp.svg" alt="whatsapp logo"></a>
+        <a href="https://github.com/Lautallarico"><img src="./assets/github.svg" alt="github logo"></a>
+        <a href="mailto:lauta.tallarico@gmail.com"><img src="./assets/email.svg" alt="email logo"></a>
+        <a href="https://www.linkedin.com/in/lautaro-tallarico/"><img src="./assets/linkedin.svg"
+                alt="linkedin logo"></a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="simulador.js"></script>
+    <!-- <script src="./js/productos.js"></script> -->
+    <script src="main.js"></script>
+</body>
+
+</html>
