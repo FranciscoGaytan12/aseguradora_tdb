@@ -8,7 +8,7 @@
 */
 
 const tipoVehiculo = ['Chico', 'Mediano', 'Camioneta']
-const tipoSeguro = ['Básica', 'Todo riesgos']
+const tipoSeguro = ['Básica', 'Todo riesgo']
 
 
 const $resultado = document.querySelector('#resultado')
