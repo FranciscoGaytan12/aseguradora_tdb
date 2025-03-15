@@ -18,7 +18,7 @@ $resultado.onclick = function () {
     let cantidad = 0
     switch (seleccionAuto) {
         case 'chico':
-            cantidad = valorAuto * 0.002
+            cantidad = valorAuto * 0.003
             break;
         case 'mediano':
             cantidad = valorAuto * 0.003
