@@ -1,0 +1,21 @@
+
+[
+    {
+        "nombre": "SEGURO AUTO CHICO",
+        "precio": 3000,
+        "imagen": "./assets/auto-chico.jpg",
+        "id": 1
+    },
+    {
+        "nombre": "SEGURO AUTO MEDIANO",
+        "precio": 5200,
+        "imagen": "./assets/auto-chico.jpg",
+        "id": 2
+    },
+    {
+        "nombre": "SEGURO AUTO GRANDE",
+        "precio": 7300,
+        "imagen": "./assets/auto-chico.jpg",
+        "id": 3
+    }   
+]
